@@ -1,0 +1,213 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #e3e3e3 ;
+  
+
+  }
+  /*--- ---*/
+  .navbar {
+    background:#e3e3e3    ;
+    height: 80px;
+    text-align: center;
+  }
+  
+.nav-link,
+  .navbar-brand {
+    color: #000;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+    
+  }
+
+  .header {
+    background-image: url("../Website/Whiteyellow.jpg");
+    max-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+#breaker{
+  background-image: url("../Website/Soup.jpg");
+  background-size: cover;
+  background-position: center;
+  height:500px;
+  position: relative;
+  background-attachment: fixed;
+}  
+  .description {
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 90px 90px 90px 90px; 
+    background-color: #e3e3e3 ;
+  
+    
+  }
+
+
+  /*--- border-radius: 50% 50% 50% 50%; 
+  
+  background-color: #e3e3e3 ;
+  position: relative; 
+  text-align: center;
+  width: 700px;
+  height: 325px;
+  padding-top: 30px;
+   width: 50%;
+    height: 50%;
+
+---*/
+
+ 
+  .description p {
+   
+    color: #CB850B;
+    font-size: 2.3em;
+    line-height: 1;
+    padding: 30px 100px;
+    text-align: center;
+
+  }
+
+.ul {
+  text-align: center;
+  list-style: inside;
+}
+
+.icon {
+  padding: 100px;
+}
+
+  .features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  }
+  .feature-title {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .features .form-control,
+.features input {
+    border-radius: 50px;
+}
+.btn {
+  background-color: #CB850B; 
+  border: 1px solid #CB850B;
+  color: #f0f0f0;
+  font-size: 2em;
+  height: 80px;
+  max-width: 100vh;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #e3e3e3 ;
+  border: 1px solid ;
+}
+.page-footer {
+  text-align: center ;
+  padding: 30px 0px;
+}
+.content{
+  text-align: center;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.headings {
+  align: center;
+  padding: 10px;
+}
+ .logo{
+  width: 100%;
+  height: auto;
+ }
+
+ .font{
+  font-family: "Arial", Verdana, Tahoma;
+ }
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #f0f0f0;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #e3e3e3 ;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #e3e3e3 ;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 15px 15px;
+    position: absolute;
+    top: 40%;
+    transform: none;
+    text-align: center;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+  }
+  
+  .description p {
+    font-size: 1.2rem;
+  }
+  
+  .features {
+    margin: 0;
+  }
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
